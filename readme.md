@@ -1,5 +1,12 @@
-Fast CTC for Chainer
+Fast CTC for Chainer, Debug Version
 ====================
+
+##Why does this clone exist?
+
+Because https://github.com/jheymann85/chainer_ctc.git requires CUDA and OpenMP.  My laptop doesn't
+have either, so I've created this version that doesn't require either one.
+
+## Original README
 
 This module contains two implementations of CTC [Graves2006] for [Chainer](http://chainer.org).
 
